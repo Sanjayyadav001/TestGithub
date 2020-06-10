@@ -1,0 +1,15 @@
+INFO    2020-06-10 11:48:52,109 [main] BasePage  - Config file loaded!!!
+INFO    2020-06-10 11:48:52,111 [main] BasePage  - OR file loaded!!!
+INFO    2020-06-10 11:48:55,803 [main] BasePage  - chrome launched!!
+INFO    2020-06-10 11:49:39,845 [main] BasePage  - navigate to URL : http://the-internet.herokuapp.com/
+INFO    2020-06-10 11:49:42,383 [main] BasePage  - Succcessfully !! clicking an element : FormAuthentication_XPATH
+INFO    2020-06-10 11:49:42,712 [main] BasePage  - Successfully !!!!typing in an element : Username_ID  value is :   sanjayyadavanshi96@gamil.com
+INFO    2020-06-10 11:49:42,840 [main] BasePage  - Successfully !!!!typing in an element : Password_ID  value is :   1234567
+INFO    2020-06-10 11:49:43,980 [main] BasePage  - Succcessfully !! clicking an element : Login_XPATH
+INFO    2020-06-10 11:49:44,067 [main] BasePage  - successfully get the text : InvalidgetText_CSS
+INFO    2020-06-10 11:49:44,359 [main] BasePage  - Successfully !!!!typing in an element : Username_ID  value is :   tomsmith
+INFO    2020-06-10 11:49:44,529 [main] BasePage  - Successfully !!!!typing in an element : Password_ID  value is :   SuperSecretPassword!
+INFO    2020-06-10 11:49:45,698 [main] BasePage  - Succcessfully !! clicking an element : Login_XPATH
+INFO    2020-06-10 11:49:45,735 [main] BasePage  - successfully get the text : InvalidgetText_CSS
+INFO    2020-06-10 11:49:45,840 [main] BasePage  - Succcessfully !! clicking an element : //*[@id="content"]/div/a
+INFO    2020-06-10 11:49:46,518 [main] BasePage  - test execution completed!!!

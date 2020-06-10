@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learn" duration-ms="4808" started-at="2020-06-10T11:49:41 IST" finished-at="2020-06-10T11:49:45 IST">
+    <groups>
+    </groups>
+    <test name=" Landing Page Test" duration-ms="1375" started-at="2020-06-10T11:49:41 IST" finished-at="2020-06-10T11:49:42 IST">
+      <class name="com.testCases.LandingPageTest">
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:com.testCases.LandingPageTest@631330c]" name="landingPage" duration-ms="1326" started-at="2020-06-10T11:49:41 IST" finished-at="2020-06-10T11:49:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+      </class> <!-- com.testCases.LandingPageTest -->
+    </test> <!--  Landing Page Test -->
+    <test name=" Login Page Test" duration-ms="3277" started-at="2020-06-10T11:49:42 IST" finished-at="2020-06-10T11:49:45 IST">
+      <class name="com.testCases.LoginTest">
+        <test-method status="PASS" signature="doLogin()[pri:1, instance:com.testCases.LoginTest@27f723]" name="doLogin" duration-ms="1599" started-at="2020-06-10T11:49:42 IST" finished-at="2020-06-10T11:49:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLoginTest()[pri:2, instance:com.testCases.LoginTest@27f723]" name="doLoginTest" duration-ms="1663" started-at="2020-06-10T11:49:44 IST" finished-at="2020-06-10T11:49:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+      </class> <!-- com.testCases.LoginTest -->
+    </test> <!--  Login Page Test -->
+    <test name=" LogOut Test" duration-ms="92" started-at="2020-06-10T11:49:45 IST" finished-at="2020-06-10T11:49:45 IST">
+      <class name="com.testCases.LogOutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testCases.LogOutTest@262b2c86]" name="setUp" is-config="true" duration-ms="48999" started-at="2020-06-10T11:48:52 IST" finished-at="2020-06-10T11:49:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogOut()[pri:0, instance:com.testCases.LogOutTest@262b2c86]" name="doLogOut" duration-ms="84" started-at="2020-06-10T11:49:45 IST" finished-at="2020-06-10T11:49:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOut -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.testCases.LogOutTest@262b2c86]" name="quit" is-config="true" duration-ms="657" started-at="2020-06-10T11:49:45 IST" finished-at="2020-06-10T11:49:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.testCases.LogOutTest -->
+    </test> <!--  LogOut Test -->
+  </suite> <!-- TestNG Learn -->
+</testng-results>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Learn]">
+  <test thread-count="5" name=" Landing Page Test(failed)">
+    <classes>
+      <class name="com.testCases.LandingPageTest">
+        <methods>
+          <include name="landingPage"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testCases.LandingPageTest -->
+    </classes>
+  </test> <!--  Landing Page Test(failed) -->
+  <test thread-count="5" name=" Login Page Test(failed)">
+    <classes>
+      <class name="com.testCases.LoginTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="quit"/>
+          <include name="doLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testCases.LoginTest -->
+    </classes>
+  </test> <!--  Login Page Test(failed) -->
+  <test thread-count="5" name=" LogOut Test(failed)">
+    <classes>
+      <class name="com.testCases.LogOutTest">
+        <methods>
+          <include name="doLogOut"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testCases.LogOutTest -->
+    </classes>
+  </test> <!--  LogOut Test(failed) -->
+</suite> <!-- Failed suite [TestNG Learn] -->
